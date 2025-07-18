@@ -7,6 +7,7 @@
 .display-flex,
 .ul {
   display: flex;
+  margin: 0 auto;
 }
 .width {
   max-width: 1440px;
@@ -16,6 +17,9 @@
 }
 .dark-1 {
   color: #131313;
+}
+.dark-3{
+  color: #727272;
 }
 .btn-shared{
   background-color: #FF900E;
@@ -100,6 +104,83 @@ main{
   .quick-features{
     color: #FF900E;
   }
+  .team-description{
+    font-size: 1rem;
+  }
+.fact-1{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+/* Rank Section */
+.rank-container{
+  margin-top: 130px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:10.8rem ;
+  margin-top: 12.5rem;
+ 
+}
+.rank{
+ border: 1px solid #FF900E  ;
+  
+ justify-content: center;
+ align-items: center;
+ 
+height: 241px;
+  width: 241px;
+  border-radius: 8px;
+
+}
+
+.rank h4{
+  font-size: 2.8rem;
+  font-weight: 600;
+  color:#424242 ;
+  margin-top: 10px;
+}
+.rank p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #727272;
+  margin-top: 5px;
+  margin-bottom: 100px;
+}
+.rank img { margin-top: 45px;
+ 
+}
+/* Facility section */
+.facility-Section{
+  margin-top: 130px;
+  
+}
+.facility-item{
+  max-width: 468px;
+  border: 5px;
+  border-radius: 8px;
+ 
+}
+.f-title{
+  max-width: 29.25rem;
+}
+.f-description{
+max-width: 36.25rem;
+}
+.f-card{
+ max-width: 36.25rem;
+  padding: 35px 30px 25px 30px;
+  box-shadow: 0 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 1.3rem;
+
+;
+}
+.f-img img {
+  max-width: 100%;
+ 
+  
+  margin-left: 130px;
+}
+
+
 
 
 /*  Responsive Display */
@@ -107,9 +188,24 @@ main{
   .display-flex,
 .ul {
 flex-direction: column;
+margin: 0 auto;
 }
 .team-img{
    grid-template-columns: repeat(1, 1fr);
+   margin: 0 auto;
 }
-  
+  .team-features {
+  margin-left: 25px;
+  }
+.rank-container{
+  grid-template-columns: repeat(1, 1fr);
+
+}
+.f-img img {
+ margin-left: 0px;
+
+}
+.facility-Section{
+   text-align: center;
+}
 }
